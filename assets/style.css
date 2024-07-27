@@ -31,7 +31,9 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
 /*ñ mistura as duas coisas*/
 color: aqua;
+border:ridge rgba(0, 65, 65, 0.767) 18px;
 }
+
 body *{
   font-family: "inter", sans-serif;
   color: var(--text-color);
@@ -180,4 +182,11 @@ ul li a {
     text-align: center;
     font-size: 14px;
     color: rgba(6, 102, 105, 0.548)
+  }
+
+
+  @media (min-width: 700px){
+    :root {
+      --bg-url: url()
+    }
   }
