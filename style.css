@@ -31,6 +31,7 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
 /*ñ mistura as duas coisas*/
 color: aqua;
+border:none
 }
 
 body *{
