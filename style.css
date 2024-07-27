@@ -8,22 +8,22 @@
 
 :root{
   --text-color: white;
-    --bg-url: url(./fundo.jpg);
+    --bg-url: url(./assets/fundo.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(6, 102, 105, 0.548);
     --surface-color-hover: rgba(5, 54, 56, 0.548);
     --icons-color:rgba(5, 66, 68, 0.548);
-    --switch-bg-url:url(./poke.svg);
+    --switch-bg-url:url(./assets/poke.svg);
   }
 
 .dark {
   --text-color: cyan;
-  --bg-url:url(./fundo-dark.jpg);
+  --bg-url:url(./assets/fundo-dark.jpg);
   --surface-color: rgba(6, 102, 105, 0.288);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: rgb(0, 39, 145);
   --icons-color: rgb(0, 39, 145);
-  --switch-bg-url:url(./ultrbll.svg);
+  --switch-bg-url:url(./assets/ultrbll.svg);
  
 }
 
