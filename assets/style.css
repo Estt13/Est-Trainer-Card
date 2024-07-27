@@ -83,13 +83,20 @@ padding: 40px;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  animation: slide-out 0.5;
 }
 
 
 .dark #switch button{
-  right: 0;
-  left: initial;
+  animation: slide-in 0.5s forwards;
 }
+
+#switch button:hover{
+  outline: 8px solid var(--icons-color);
+
+}
+
+
 #switch span{
   width: 64px;
   height: 24px;
@@ -185,8 +192,19 @@ ul li a {
   }
 
 
-  @media (min-width: 700px){
-    :root {
-      --bg-url: url()
+  @keyframes slide-in {
+    from{
+      left:0;
+    }
+    to {
+      left: 50%;
     }
   }
+
+  @keyframes slide-out{
+    from {left: 50%;
+    }
+    to{
+      left: 0;
+    }
+    }
