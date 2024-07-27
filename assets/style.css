@@ -83,7 +83,7 @@ padding: 40px;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  animation: slide-out 0.5;
+  animation: slide-out 0.5s;
 }
 
 
