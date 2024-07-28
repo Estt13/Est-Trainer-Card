@@ -38,6 +38,22 @@
         color: var(--text-color);
       }
       
+
+      #sapo2 img{
+
+        width: 150px;
+        display: block;
+        margin: auto;
+      } 
+      
+      .dark #sapo2 img{
+          width: 150px;
+          display:block;
+          margin: auto;
+        }
+
+
+
       #meio2 {
         width: 360px;
       margin: 56px auto 0px auto;
@@ -68,7 +84,7 @@
       #switch2 button{
         width: 32px;
         height: 32px;
-        background: black var(--switch-bg-url) no-repeat center;
+        background: var(--switch-bg-url) no-repeat center;
         border: 0;
         border-radius: 50%;
         position:absolute;
@@ -101,7 +117,7 @@
       }
  
       ul{
-        list-style: none;
+        list-style:none;
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -110,23 +126,23 @@
       }
       
       ul li a {
-        border: solid var(--text-color) 1px;
+        border: outset var(--text-color) 1px;
         display: flex;
         justify-content: center;
       
-        padding: 16px 24px;
+        padding: 5px ;
       
         align-items: center;
         background: var(--surface-color);
-        border: 1px solid var(--stroke-color);
-        border-radius: 8px;
+        border: 4px outset var(--stroke-color);
+        border-radius: 100px;
       
         backdrop-filter: blur(4px);  
       
         text-decoration:none;
         font-weight: bold;
       
-        transition: all 0.4s;
+        transition: all 0.2s;
         }
         ul li a:hover {
             background:var(--surface-color-hover);
