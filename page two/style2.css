@@ -7,7 +7,7 @@
   /*variaveis*/
   :root{
     --text-color: white;
-      --bg-url: url(./assets/fundo.jpg);
+      --bg2-url: url(./fundo.jpg);
       --stroke-color: rgba(255, 255, 255, 0.5);
       --surface-color: rgba(6, 102, 105, 0.548);
       --surface-color-hover: rgba(5, 54, 56, 0.548);
@@ -17,7 +17,7 @@
 
     .dark {
         --text-color: cyan;
-        --bg-url:url(./assets/fundo-dark.jpg);
+        --bg2-url:url(./fundo-dark.jpg);
         --surface-color: rgba(6, 102, 105, 0.288);
         --stroke-color: rgba(255, 255, 255, 0.5);
         --surface-color-hover: rgb(0, 39, 145);
@@ -27,7 +27,7 @@
        /*fim das variaveis*/
 
        body {
-        background: var(--bg-url) no-repeat top center/cover;
+        background: var(--bg2-url) no-repeat top center/cover;
       /*ñ mistura as duas coisas*/
       color: aqua;
       border:none
@@ -68,7 +68,7 @@
       #switch2 button{
         width: 32px;
         height: 32px;
-        background: white var(--switch-bg-url) no-repeat center;
+        background: black var(--switch-bg-url) no-repeat center;
         border: 0;
         border-radius: 50%;
         position:absolute;
